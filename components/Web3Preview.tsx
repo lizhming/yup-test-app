@@ -1,7 +1,8 @@
-import React, { useEffect, useState } from 'react'
-import { Image, StyleSheet, Text, View } from 'react-native'
-import { Web3Preview, EmbedImage } from '../utils/types'
+import React from 'react'
+import { StyleSheet, View } from 'react-native'
+import { Web3Preview } from '../utils/types'
 import { isEmbedImage } from '../utils/utils'
+import AutoHeightImage from './AutoHeightImage'
 
 interface Web3PreviewComponentProps {
   web3Preview: Web3Preview
@@ -12,20 +13,16 @@ const Web3PreviewComponent: React.FC<Web3PreviewComponentProps> = ({ web3Preview
 
   return (
     <View style={styles.container}>
-      {/* {web3Preview.attachments?.[0]?.images.length > 0 && (
-        <>
-          <Image source={{ uri: web3Preview.attachments?.[0]?.images[0] }} style={styles.previewImage} />
-        </>
-      )} */}
+      {/* Display first imbed image */}
       {web3Preview.meta.embed && isEmbedImage(web3Preview.meta.embed) && (
-        <>
-          <Image
-            source={{ uri: web3Preview.meta.embed.images[0].thumb }}
-            style={styles.previewImage}
-            resizeMode="contain"
-          />
-        </>
+        <AutoHeightImage source={{ uri: web3Preview.meta.embed.images[0].thumb }} />
       )}
+
+      {/* Display first attachments */}
+      {!(web3Preview.meta.embed && isEmbedImage(web3Preview.meta.embed)) &&
+        web3Preview.attachments?.[0]?.images.length > 0 && (
+          <AutoHeightImage source={{ uri: web3Preview.attachments?.[0]?.images[0] }} />
+        )}
     </View>
   )
 }
@@ -36,14 +33,6 @@ const styles = StyleSheet.create({
     paddingLeft: 10,
     fontSize: 20,
     fontWeight: 'bold',
-  },
-  previewImage: {
-    // flex: 1,
-    borderRadius: 20,
-    borderColor: '#DDD',
-    borderWidth: 1,
-    width: '100%',
-    height: 300,
   },
 })
 
