@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { FlatList, RefreshControl, StyleSheet, Text, View } from 'react-native'
+import { ActivityIndicator, FlatList, RefreshControl, StyleSheet, Text, View } from 'react-native'
 import getFeed from '../utils/api'
 import FeedComponent from '../components/FeedComponent'
 
@@ -35,9 +35,9 @@ const FeedScreen: React.FC = ({}) => {
           setCurrentPage(currentPage + 1)
         }}
         ItemSeparatorComponent={({ highlighted }) => <View style={styles.separator} />}
-        ListEmptyComponent={
+        ListFooterComponent={
           <View style={styles.loadingView}>
-            <Text style={styles.loadingText}>Loading ...</Text>
+            <ActivityIndicator />
           </View>
         }
         overScrollMode="never"
@@ -66,7 +66,6 @@ const styles = StyleSheet.create({
   },
   flatList: {
     flex: 1,
-    // backgroundColor: 'red',
   },
   loadingView: {
     flex: 1,
@@ -74,6 +73,7 @@ const styles = StyleSheet.create({
   },
   loadingText: {
     fontSize: 18,
+    textAlign: 'center',
     textAlignVertical: 'center',
   },
   separator: {

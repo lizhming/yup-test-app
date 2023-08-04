@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import { Image, StyleSheet, Text, TouchableOpacity, View } from 'react-native'
-import getFeed from '../utils/api'
 import { humanReadablePastTime } from '../utils/utils'
 import ProfileImage from './ProfileImage'
 import { Feed } from '../utils/types'
@@ -14,8 +13,8 @@ interface FeedComponentProps {
 const FeedComponent: React.FC<FeedComponentProps> = ({ feed }) => {
   return (
     <View style={styles.container}>
+      {/* Header View */}
       <View style={styles.authorContainer}>
-        {/* <Image source={{ uri: feed.web3CreatorProfile.avatar }} style={{ width: 50, height: 50 }} /> */}
         <ProfileImage imageURI={feed.web3CreatorProfile.avatar} name={feed.web3CreatorProfile.bsky.fullname} />
         <Text style={styles.handleText} numberOfLines={1} ellipsizeMode="middle">
           <Text ellipsizeMode="tail" numberOfLines={1}>
@@ -25,13 +24,15 @@ const FeedComponent: React.FC<FeedComponentProps> = ({ feed }) => {
         </Text>
       </View>
 
+      {/* Content View */}
       <View style={styles.contentContainer}>
         <Text style={styles.title}>{feed.previewData.title}</Text>
-        {/* <Text style={styles.description}>{feed.previewData.description}</Text> */}
       </View>
 
+      {/* Web3Preview */}
       <Web3PreviewComponent web3Preview={feed.web3Preview} />
 
+      {/* ActionView like, repost, reply, more */}
       <View style={styles.actionContainer}>
         <TouchableOpacity style={styles.flex}>
           <Icon name="heart-outline" size={16} />
@@ -45,6 +46,9 @@ const FeedComponent: React.FC<FeedComponentProps> = ({ feed }) => {
           <Icon name="repeat-outline" size={16} />
           <Text style={styles.actionText}>{feed.web3Preview.meta.replyCount}</Text>
         </TouchableOpacity>
+        <TouchableOpacity style={styles.flex}>
+          <Icon name="ellipsis-horizontal-sharp" size={16} />
+        </TouchableOpacity>
       </View>
     </View>
   )
@@ -54,21 +58,18 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 10,
-    backgroundColor: '#fff',
     justifyContent: 'center',
-    // borderBottomWidth: 1,
-    // borderBottomColor: '#ddd',
   },
   authorContainer: {
     flex: 1,
     flexDirection: 'row',
-    justifyContent: 'space-between',
     alignItems: 'center',
     paddingBottom: 5,
   },
   handleText: {
     color: '#888',
     flex: 1,
+    textAlign: 'right',
   },
   feedTime: {
     color: '#888',
