@@ -25,6 +25,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4b71125f-e536-499f-b75d-f678b0771ee4"
+      }
+    },
+    "owner": "lizhming"
   }
 }

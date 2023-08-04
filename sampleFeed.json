@@ -1,0 +1,424 @@
+{
+    "_id": {
+        "postid": "3aedadfe-1480-4bba-b6a7-dbc1524bc4d2"
+    },
+    "author": "yupcreators1",
+    "catVotes": {
+        "overall": {
+            "up": 2,
+            "down": 0
+        }
+    },
+    "claimedCreatorRewards": 0,
+    "createdAt": "2023-08-03T17:57:15.587Z",
+    "creatorInfluence": 0,
+    "creatorPoolRedeemed": 0,
+    "influence": {
+        "false": 0,
+        "true": 0
+    },
+    "isFlagged": false,
+    "isModeratorFlagged": false,
+    "lang": "en",
+    "negativeWeight": 0,
+    "positiveWeight": 0.55,
+    "previewData": {
+        "creator": "",
+        "img": "",
+        "title": "Why is the NY Times so consistently bad at this?",
+        "description": "Why is the NY Times so consistently bad at this?"
+    },
+    "rating": {
+        "overall": {
+            "ratingCount": 2,
+            "ratingWeight": 0
+        }
+    },
+    "secondaryTags": [],
+    "tag": "bsky",
+    "totalCreatorRewards": 0,
+    "updatedAt": "2023-08-03T17:57:15.587Z",
+    "url": "at://did:plc:cak4klqoj3bqgk5rj6b4f5do/app.bsky.feed.post/3k4343epsnh2p",
+    "web3Preview": {
+        "id": "at://did:plc:cak4klqoj3bqgk5rj6b4f5do/app.bsky.feed.post/3k4343epsnh2p",
+        "contentType": "Post",
+        "protocol": "bsky",
+        "creator": {
+            "address": "",
+            "did": "did:plc:cak4klqoj3bqgk5rj6b4f5do",
+            "avatarUrl": "https://cdn.bsky.social/imgproxy/0x1YY1uEnZriKI2_F3Zr2zjQ_Z4s8R2nrWQ5aKj4300/rs:fill:1000:1000:1:0/plain/bafkreifrr5n5p2ixfbupo3eocykh5jzd67dy2tohi7pzllacainjgkkq5e@jpeg",
+            "handle": "mmasnick.bsky.social",
+            "fullname": "Mike Masnick",
+            "yupScore": 0
+        },
+        "attachments": [],
+        "content": "Why is the NY Times so consistently bad at this?",
+        "urls": [],
+        "linkPreview": [],
+        "mentions": {},
+        "meta": {
+            "uri": "at://did:plc:cak4klqoj3bqgk5rj6b4f5do/app.bsky.feed.post/3k4343epsnh2p",
+            "cid": "bafyreidcrddukrfevomgvmrfo6jrxk2ztm2rhq4bjkqgjx3mtooogceqju",
+            "author": {
+                "did": "did:plc:cak4klqoj3bqgk5rj6b4f5do",
+                "handle": "mmasnick.bsky.social",
+                "displayName": "Mike Masnick",
+                "avatar": "https://cdn.bsky.social/imgproxy/0x1YY1uEnZriKI2_F3Zr2zjQ_Z4s8R2nrWQ5aKj4300/rs:fill:1000:1000:1:0/plain/bafkreifrr5n5p2ixfbupo3eocykh5jzd67dy2tohi7pzllacainjgkkq5e@jpeg",
+                "viewer": {
+                    "muted": false,
+                    "blockedBy": false
+                },
+                "labels": []
+            },
+            "record": {
+                "text": "Why is the NY Times so consistently bad at this?",
+                "type": "app.bsky.feed.post",
+                "langs": [
+                    "en"
+                ],
+                "createdAt": "2023-08-03T17:57:16.168Z"
+            },
+            "embed": {
+                "type": "app.bsky.embed.record#view",
+                "record": {
+                    "type": "app.bsky.embed.record#viewRecord",
+                    "uri": "at://did:plc:ig5djks6d6e6kyet32abh5zs/app.bsky.feed.post/3k3zm4xhpja24",
+                    "cid": "bafyreibajog7xrofvkuiloouqniyrvmwyuqzt4nob6vcc4fhxmiwks4kxa",
+                    "author": {
+                        "did": "did:plc:ig5djks6d6e6kyet32abh5zs",
+                        "handle": "jamisonfoser.bsky.social",
+                        "displayName": "Jamison Foser",
+                        "avatar": "https://cdn.bsky.social/imgproxy/y_063pmX3lCUj-zj3Zsx4EAyucO492ZNSs1_ENTBZ6Y/rs:fill:1000:1000:1:0/plain/bafkreifpsh5tebu2hmv6kksns3tftkbkjiydnpx43edtmireh7lby6scby@jpeg",
+                        "viewer": {
+                            "muted": false,
+                            "blockedBy": false
+                        },
+                        "labels": []
+                    },
+                    "value": {
+                        "text": "Nobody actually believes this has a goddamned thing to do with “free speech” and anyone who pretends they believe it does, or pretends *anyone else* believes it does, is lying to you.",
+                        "type": "app.bsky.feed.post",
+                        "embed": {
+                            "type": "app.bsky.embed.images",
+                            "images": [
+                                {
+                                    "alt": "The New York Times is lying to you on Donald Trump’s behalf. ",
+                                    "image": {
+                                        "ref": {
+                                            "code": 85,
+                                            "version": 1,
+                                            "multihash": {
+                                                "code": 18,
+                                                "size": 32,
+                                                "digest": [
+                                                    143,
+                                                    86,
+                                                    97,
+                                                    69,
+                                                    79,
+                                                    30,
+                                                    203,
+                                                    243,
+                                                    182,
+                                                    14,
+                                                    239,
+                                                    117,
+                                                    129,
+                                                    173,
+                                                    233,
+                                                    68,
+                                                    224,
+                                                    135,
+                                                    171,
+                                                    76,
+                                                    19,
+                                                    190,
+                                                    17,
+                                                    78,
+                                                    16,
+                                                    5,
+                                                    34,
+                                                    66,
+                                                    241,
+                                                    125,
+                                                    185,
+                                                    78
+                                                ],
+                                                "bytes": [
+                                                    18,
+                                                    32,
+                                                    143,
+                                                    86,
+                                                    97,
+                                                    69,
+                                                    79,
+                                                    30,
+                                                    203,
+                                                    243,
+                                                    182,
+                                                    14,
+                                                    239,
+                                                    117,
+                                                    129,
+                                                    173,
+                                                    233,
+                                                    68,
+                                                    224,
+                                                    135,
+                                                    171,
+                                                    76,
+                                                    19,
+                                                    190,
+                                                    17,
+                                                    78,
+                                                    16,
+                                                    5,
+                                                    34,
+                                                    66,
+                                                    241,
+                                                    125,
+                                                    185,
+                                                    78
+                                                ]
+                                            },
+                                            "bytes": [
+                                                1,
+                                                85,
+                                                18,
+                                                32,
+                                                143,
+                                                86,
+                                                97,
+                                                69,
+                                                79,
+                                                30,
+                                                203,
+                                                243,
+                                                182,
+                                                14,
+                                                239,
+                                                117,
+                                                129,
+                                                173,
+                                                233,
+                                                68,
+                                                224,
+                                                135,
+                                                171,
+                                                76,
+                                                19,
+                                                190,
+                                                17,
+                                                78,
+                                                16,
+                                                5,
+                                                34,
+                                                66,
+                                                241,
+                                                125,
+                                                185,
+                                                78
+                                            ]
+                                        },
+                                        "mimeType": "image/jpeg",
+                                        "size": 436012,
+                                        "original": {
+                                            "type": "blob",
+                                            "ref": {
+                                                "code": 85,
+                                                "version": 1,
+                                                "multihash": {
+                                                    "code": 18,
+                                                    "size": 32,
+                                                    "digest": [
+                                                        143,
+                                                        86,
+                                                        97,
+                                                        69,
+                                                        79,
+                                                        30,
+                                                        203,
+                                                        243,
+                                                        182,
+                                                        14,
+                                                        239,
+                                                        117,
+                                                        129,
+                                                        173,
+                                                        233,
+                                                        68,
+                                                        224,
+                                                        135,
+                                                        171,
+                                                        76,
+                                                        19,
+                                                        190,
+                                                        17,
+                                                        78,
+                                                        16,
+                                                        5,
+                                                        34,
+                                                        66,
+                                                        241,
+                                                        125,
+                                                        185,
+                                                        78
+                                                    ],
+                                                    "bytes": [
+                                                        18,
+                                                        32,
+                                                        143,
+                                                        86,
+                                                        97,
+                                                        69,
+                                                        79,
+                                                        30,
+                                                        203,
+                                                        243,
+                                                        182,
+                                                        14,
+                                                        239,
+                                                        117,
+                                                        129,
+                                                        173,
+                                                        233,
+                                                        68,
+                                                        224,
+                                                        135,
+                                                        171,
+                                                        76,
+                                                        19,
+                                                        190,
+                                                        17,
+                                                        78,
+                                                        16,
+                                                        5,
+                                                        34,
+                                                        66,
+                                                        241,
+                                                        125,
+                                                        185,
+                                                        78
+                                                    ]
+                                                },
+                                                "bytes": [
+                                                    1,
+                                                    85,
+                                                    18,
+                                                    32,
+                                                    143,
+                                                    86,
+                                                    97,
+                                                    69,
+                                                    79,
+                                                    30,
+                                                    203,
+                                                    243,
+                                                    182,
+                                                    14,
+                                                    239,
+                                                    117,
+                                                    129,
+                                                    173,
+                                                    233,
+                                                    68,
+                                                    224,
+                                                    135,
+                                                    171,
+                                                    76,
+                                                    19,
+                                                    190,
+                                                    17,
+                                                    78,
+                                                    16,
+                                                    5,
+                                                    34,
+                                                    66,
+                                                    241,
+                                                    125,
+                                                    185,
+                                                    78
+                                                ]
+                                            },
+                                            "mimeType": "image/jpeg",
+                                            "size": 436012
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        "langs": [
+                            "en"
+                        ],
+                        "createdAt": "2023-08-03T03:39:09.048Z"
+                    },
+                    "labels": [],
+                    "indexedAt": "2023-08-03T03:39:09.148Z",
+                    "embeds": [
+                        {
+                            "type": "app.bsky.embed.images#view",
+                            "images": [
+                                {
+                                    "thumb": "https://cdn.bsky.social/imgproxy/q4psPxYDuvVBuA5lzO3OUykWo8syyO8zTMRQfDgkzcQ/rs:fit:1000:1000:1:0/plain/bafkreiepkzqukty6zpz3mdxpowa232ke4cd2wtatxyiu4eafejbpc7nzjy@jpeg",
+                                    "fullsize": "https://cdn.bsky.social/imgproxy/NZPZUDz19-EIy9dJd01Xwa0tJn8y0dY7oJlaidqLtss/rs:fit:2000:2000:1:0/plain/bafkreiepkzqukty6zpz3mdxpowa232ke4cd2wtatxyiu4eafejbpc7nzjy@jpeg",
+                                    "alt": "The New York Times is lying to you on Donald Trump’s behalf. "
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "replyCount": 0,
+            "repostCount": 0,
+            "likeCount": 0,
+            "indexedAt": "2023-08-03T17:57:15.587Z",
+            "viewer": {},
+            "labels": [],
+            "viewUrl": "https://bsky.app/profile/mmasnick.bsky.social/post/3k4343epsnh2p",
+            "parentPostId": null,
+            "rootPostId": null,
+            "quotedPostId": "092496d7-3b14-49c0-99cd-8f5ab54fab87",
+            "postType": "post",
+            "isLabelled": false
+        },
+        "createdAt": "2023-08-03T17:57:15.587Z",
+        "platformMetrics": {
+            "likes": 90,
+            "reposts": 22,
+            "comments": 0
+        },
+        "updatedAt": "2023-08-03T17:57:15.587Z"
+    },
+    "web3CreatorProfile": {
+        "_id": "did:plc:cak4klqoj3bqgk5rj6b4f5do",
+        "farcaster": {},
+        "lens": {},
+        "yup": {},
+        "bsky": {
+            "did": "did:plc:cak4klqoj3bqgk5rj6b4f5do",
+            "handle": "mmasnick.bsky.social",
+            "avatar": "https://cdn.bsky.social/imgproxy/0x1YY1uEnZriKI2_F3Zr2zjQ_Z4s8R2nrWQ5aKj4300/rs:fill:1000:1000:1:0/plain/bafkreifrr5n5p2ixfbupo3eocykh5jzd67dy2tohi7pzllacainjgkkq5e@jpeg",
+            "fullname": "Mike Masnick",
+            "bio": "Techdirt guy. Sometimes I write about protocols. Sometimes about social media, copyright, free speech, content moderation, civil liberties and stuff like that. Once wrote a paper that may have helped inspire this service: https://bit.ly/protocolnotplatform"
+        },
+        "handle": "mmasnick.bsky.social",
+        "avatar": "https://cdn.bsky.social/imgproxy/0x1YY1uEnZriKI2_F3Zr2zjQ_Z4s8R2nrWQ5aKj4300/rs:fill:1000:1000:1:0/plain/bafkreifrr5n5p2ixfbupo3eocykh5jzd67dy2tohi7pzllacainjgkkq5e@jpeg",
+        "lastActiveDate": "2023-08-03T18:04:57.960Z",
+        "yupScore": 0,
+        "noData": false
+    },
+    "rawPositiveWeight": 11,
+    "quantiles": {
+        "overall": "none",
+        "popularity": "none"
+    },
+    "sextiles": {
+        "overall": "none",
+        "popularity": "none"
+    },
+    "weights": {
+        "overall": 0,
+        "popularity": 0
+    },
+    "avatar": ""
+}
